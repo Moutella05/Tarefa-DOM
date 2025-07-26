@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(234, 234, 39)
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 30%;
+    margin-top: 2%;
+    border: black solid;
+    border-radius: 5px
+}
+
+.nota {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin: 3%;
+    background-color:white;
+}
+
+.media {
+    background-color: white;
+    margin-top: 1%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nota p {
+    background-color: white;
+}
+
+.input {
+    background-color: white;
+    width: 50%;
+}
+
+.button_notas {
+    background-color: white;
+}
+
+.textarea {
+    background-color: white;
+    padding-left: 1%;
+    min-height: 200px;
+    width: 50%
+}
+
+.button_media {
+    background-color: white;
+}
+
+.resultado {
+    background-color: white;
+    padding-bottom: 3%;
+    margin-top: 3%;
+}
+
